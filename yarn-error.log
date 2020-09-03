@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js add openzeppelin-solidity
+
+PATH: 
+  /Users/lixp/.cargo/bin::/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/lixp/.cargo/bin:/Users/lixp/workshop/.gopath/bin:/Users/lixp/.rvm/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/openzeppelin-solidity: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:141224:19)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
